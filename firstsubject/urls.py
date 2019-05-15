@@ -1,4 +1,4 @@
-"""firstpro URL Configuration
+"""firstsubject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -19,5 +19,5 @@ import firstapp.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', firstapp.views.first, name='home'),
+    path('', firstapp.views.index, name='index'),
 ]
